@@ -34,10 +34,10 @@
     // 手动加载一次，否则首屏的图片不触发滚动无法加载
     lazyLoad1()
    ```
-   2. intersectionObserver 实现懒加载
-   > intersectionObserver 的实现方式，实例化一个 IntersectionObserver ，并使其观察所有 img 标签。  
-   当 img 标签进入可视区域时会执行实例化时的回调，同时给回调传入一个 entries 参数，保存着实例观察的所有元素的一些状态，比如每个元素的边界信息，当前元素对应的 DOM 节点，当前元素进入可视区域的比率，每当一个元素进入可视区域，将真正的图片赋值给当前 img 标签，同时解除对其的观察
-   ```javascript
+2. intersectionObserver 实现懒加载
+    > intersectionObserver 的实现方式，实例化一个 IntersectionObserver ，并使其观察所有 img 标签。  
+    当 img 标签进入可视区域时会执行实例化时的回调，同时给回调传入一个 entries 参数，保存着实例观察的所有元素的一些状态，比如每个元素的边界信息，当前元素对应的 DOM 节点，当前元素进入可视区域的比率，每当一个元素进入可视区域，将真正的图片赋值给当前 img 标签，同时解除对其的观察
+    ```javascript
     let imgList2 = [...document.querySelectorAll(".intersection_observer")]
 
     let lazyLoad2 = function () {
@@ -59,4 +59,4 @@
     }
 
     lazyLoad2()
-   ```
+    ```

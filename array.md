@@ -86,7 +86,5 @@
     }
     // 另外一个好处是，i 和 len 两个变量是在for循环的第一个声明中，二者只会初始化一次，这要比下面这种写法快：
 
-    for (var i = 0; i < arrayNumbers.length; i++){ 
-
-    }
+    for (var i = 0; i < arrayNumbers.length; i++){ }
    ```

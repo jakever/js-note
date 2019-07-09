@@ -70,14 +70,8 @@
     };
    ```
 10. 获取数组中的最大值和最小值
-   ```javascript
+    ```javascript
     var numbers = [5, 458 , 120 , -215 , 228 , 400 , 122205, -85411]; 
     var maxInNumbers = Math.max.apply(Math, numbers); 
     var minInNumbers = Math.min.apply(Math, numbers);
-   ```
-11. 获取数组中的最大值和最小值
-   ```javascript
-    var numbers = [5, 458 , 120 , -215 , 228 , 400 , 122205, -85411]; 
-    var maxInNumbers = Math.max.apply(Math, numbers); 
-    var minInNumbers = Math.min.apply(Math, numbers);
-   ```
+    ```
