@@ -1,2 +1,1 @@
-# js-note
-Javascript技术笔记
+# 个人前端刨坑笔记心的～
