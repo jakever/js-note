@@ -1,0 +1,12 @@
+{
+    "name": "module-exports",
+    "version": "0.0.1",
+    "description": "",
+    "main": "start.js",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.13.16",
+        "@babel/preset-env": "^7.13.15",
+        "@babel/register": "^7.13.16"
+    }
+}
